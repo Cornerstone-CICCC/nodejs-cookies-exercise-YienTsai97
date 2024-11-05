@@ -1,0 +1,21 @@
+<%- include('./partials/header') %>
+    <div class="container">
+        <h1>
+            <%= title %>
+        </h1>
+
+        <form action="/login" method="post">
+            <label>
+                <span>Username</span>
+                <input type="text" name="username" placeholder="Enter Username">
+            </label>
+            <label>
+                <span>Password</span>
+                <input type="password" name="password" placeholder="Enter Password">
+            </label>
+            <button type="submit">Log In</button>
+        </form>
+
+
+    </div>
+    <%- include('./partials/header') %>
